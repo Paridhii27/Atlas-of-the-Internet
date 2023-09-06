@@ -33,7 +33,7 @@ p {
   /* pointer-events: painted; */
   background: radial-gradient(
     circle 5em at var(--Xpos) var(--Ypos),
-    rgba(1, 0, 0, 0),
+    rgba(0, 0, 0, 0),
     rgba(0, 1, 1, 1)
   );
 }
@@ -45,7 +45,7 @@ p {
 }
 
 canvas{
-  width:calc(100vw-800px);
+  left:calc(50%-200px);
   top:calc(50vh-800px);
   position:relative;
 }
