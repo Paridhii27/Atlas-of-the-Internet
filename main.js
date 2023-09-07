@@ -20,4 +20,6 @@ function getMousePosition(e) {
 }
 
 document.addEventListener("mousemove", getMousePosition);
-document.addEventListener("touchmove", getMousePosition);
+document.addEventListener("touchmove", getMousePosition); 
+
+// referred to a coding artist tutorial for the flashlight
